@@ -6,13 +6,10 @@
 </head>
 <body>
     <script>
-        var sum = 0;
-        sum += 1;
-        sum += 2;
-        sum += 3;
-        sum += 4;
-        sum += 5;
-        document.write("1부터 5까지 더하면 " + sum);
+        var result = (function(a,b){
+            return 10+20;
+        }());
+        console.log(result);
     </script>
 </body>
 </html>
