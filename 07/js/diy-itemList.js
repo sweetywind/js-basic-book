@@ -37,7 +37,7 @@
 		}
 
 		function removeList() {			
-			var id = this.getAttribute("id");	
+			var id = this.getAttribute("id");
 			itemList.splice(id, 1);
 			localStorage.setItem("storageList", JSON.stringify(itemList));
 			showList();
